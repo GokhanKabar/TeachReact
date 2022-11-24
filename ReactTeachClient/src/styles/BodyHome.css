@@ -1,0 +1,36 @@
+.BodyHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30vw;
+    max-width: 1000px;
+}
+
+.first_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.first_container h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.5rem;
+    color: rgb(51, 51, 223);
+}
+.searchbar{
+    font-size: 1rem;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 3px solid rgb(199, 199, 199);
+}
+
+@media screen and (max-width: 1080px) {
+
+    .BodyHome{
+      margin-left: 10vw;
+    }
+    
+  }
+

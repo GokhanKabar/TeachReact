@@ -1,0 +1,68 @@
+{
+    "users": [
+        {
+        "first_name": "Gokhan",
+        "last_name": "KABAR",
+        "works" : "Informatique"
+        },
+        {
+          "first_name": "Dinath",
+          "last_name": "Sunthararajah",
+          "works" : "Informatique"
+        },
+        {
+          "first_name": "Aurelie",
+          "last_name": "DUFOUR",
+          "works" : "SVT"
+        },
+        {
+          "first_name": "Leanne",
+          "last_name": "GRAHAM",
+          "works" : "Maths"
+        },
+        {
+          "first_name": "Ervin",
+          "last_name": "HOWELL",
+          "works" : "Anglais"
+        },
+        {
+          "first_name": "Clementine",
+          "last_name": "BAUCH",
+          "works" : "Maths"
+        },
+        {
+          "first_name": "Patricia",
+          "last_name": "LEBSACK",
+          "works" : "Anglais"
+        },
+        {
+          "first_name": "Chelsey",
+          "last_name": "DIETRICH",
+          "works" : "Maths"
+        },
+        {
+          "first_name": "Dennis",
+          "last_name": "SCHULIST",
+          "works" : "Informatique"
+        },
+        {
+          "first_name": "Kurtis",
+          "last_name": "WEISSNAT",
+          "works" : "Maths"
+        },
+        {
+          "first_name": "Nicholas",
+          "last_name": "RUNOLFSHO",
+          "works" : "Anglais"
+        },
+        {
+          "first_name": "Glenna",
+          "last_name": "REICHERT",
+          "works" : "Informatique"
+        },
+        {
+          "first_name": "Mathieu",
+          "last_name": "LARBY",
+          "works" : "Informatique"
+        }
+]}

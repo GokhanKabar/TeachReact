@@ -1,0 +1,105 @@
+.profile-container {
+  display: grid;
+  height: 50vh;
+  margin-left: 38vw;
+  flex-direction: row;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 10px;
+}
+
+.profile-card {
+  flex: 1 1 30%;
+  max-width: 300px;
+  background: #fff;
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 0 6px 0 #ccc;
+  transition: .3s;
+  margin-left: 10px;
+}
+
+.profile-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px -5px #ccc;
+}
+
+.profile-icon {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-family: 'Poppins',sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(51, 51, 223);
+  margin: 25px 0 10px 0;
+}
+
+.profile-position {
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.button {
+  margin: 40px 0 0 0;
+  padding: 10px 30px;
+  color: rgb(51, 51, 223);
+  text-decoration: none;
+  border: 1px solid rgb(51, 51, 223);
+  border-radius: 4px;
+}
+
+.button:hover {
+  color: #fff;
+  background: #748dff;
+  border: 1px solid #748dff;
+}
+
+.infoUserItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  color: #2e33a5;
+}
+.infoUserItem span{
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile-name {
+      font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .profile-card {
+      padding: 20px 15px;
+  }
+
+  .profile-name {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+
+  .profile-container{
+    margin-left: 20vw;
+  }
+  
+}
+
+@media screen and (max-width: 1080px) {
+
+  .profile-container{
+    grid-template-columns: repeat(1, 0fr);
+  }
+  
+}
