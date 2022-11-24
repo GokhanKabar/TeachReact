@@ -1,5 +1,4 @@
 import React from 'react'
-import api from "../api.js"
 import { useState, useEffect } from "react";
 import user from '../assets/user.png'
 import ".././styles/TeacherCard.css"
@@ -41,7 +40,7 @@ const TeacherCard = () => {
     <h2> En quelle matière avec-vous besoin de l'aide ?</h2>
     <input className='searchbar'
       type="text"
-      placeholder="SVT,piano,anglais,math.."
+      placeholder="Informatique,Maths,Anglais,SVT"
       onChange={(evt) => updateInputValue(evt)}
 
     />

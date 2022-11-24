@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 .containerLeft {
-  position: fixed;
+  display: flex;
   background-color: #F3F5FB;
-  height: 100vh;
+  height: 100%;
   align-items: center;
-  flex-direction: column;
-  min-width: 300px;
+  justify-content: space-around;
 }
 ul {
-  margin-top: 100px;
+  display: flex;
+  align-items: center;
 }
 li{
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   list-style:none;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   color: #6A8EC5;
   font-weight: bold;
   margin-top: 20px;
+}
+li:nth-child(2){
+  margin-right: 50px;
 }
 
 .number {
@@ -31,14 +34,28 @@ li{
   border-radius: 50%;
 }
 .containerLeft img{
-  width: 50%;
-  padding: 50px;
+  width: 10%;
 }
 
-@media screen and (max-width: 1080px) {
-
-  .containerLeft{
-    display: none;
+@media screen and (max-width:545px){
+  .containerLeft {
+    display: flex;
+    background-color: #F3F5FB;
+    flex-direction: column;
   }
-  
+  ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  li:nth-child(2){
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .containerLeft img{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
